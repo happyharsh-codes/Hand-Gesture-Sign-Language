@@ -1,0 +1,27 @@
+.dashboard{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 218, 181);
+    gap: 4rem;
+}
+
+.live-cam-btn, .display-results-btn{
+    width: 10rem;
+    height: 7rem;
+
+    color: black;
+    background-color: rgb(253, 255, 127);
+    border-radius: 8px;
+
+    font-family: monospace,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    
+    cursor: pointer;
+}

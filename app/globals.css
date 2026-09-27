@@ -19,8 +19,55 @@
   }
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: black;
+}
+
+.navbar-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+.navbar-logo h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar-right{
+  padding: 0 2rem;
+}
+
+.navbar-icon svg{
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
 }
